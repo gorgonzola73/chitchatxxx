@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="960px" height="960px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 9600 9600"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .filbg2 {fill:#444;fill-opacity:0.501961}
+    .filbg0 {fill:#2B2A29;fill-opacity:0.800000}
+    .filbg1 {fill:#999;fill-opacity:0.800000}
+   ]]>
+  </style>
+ </defs>
+ <g id="Vrstva_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2060284263488">
+   <path class="filbg0" d="M20800 13003c-10601,5031 -19620,5426 -32000,5969l0 -27875 32000 0 0 21906z"/>
+  </g>
+  <g id="_2060284264064" filter="url(#c)">
+   <path class="filbg1" d="M-11200 13003c10601,5031 19620,5426 32000,5969l0 -27875 -32000 0 0 21906z"/>
+  </g>
+  <g id="_2060284262592">
+   <path class="filbg0" d="M20800 -2934c-10601,-5031 -19620,-5426 -32000,-5969l0 27875 32000 0 0 -21906z"/>
+  </g>
+  <g id="_2060284263936" filter="url(#c)">
+   <path class="filbg2" d="M-11200 -2934c10601,-5031 19620,-5426 32000,-5969l0 27875 -32000 0 0 -21906z"/>
+  </g>
+ </g>
+</svg>

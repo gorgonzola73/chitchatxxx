@@ -1,0 +1,153 @@
+#modal_screen {
+	position: fixed;
+	top:0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1100;
+	background-color: rgba(0,0,0,.8);
+}
+
+#modal_screen.nope {
+	background-color: #1e0924; 
+}
+
+#modal_content {
+	position: fixed;
+	z-index: 1101;
+	margin: 0 auto;
+	border:2px solid #fff;
+	border-radius: 0%;
+	font-size: 12px;
+	width:600px;
+	height: 457px;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	box-shadow:inset 0px 0px 100px rgba(0,0,0,0.7);
+
+	background: url(../images/verification-popup-bg.jpg);
+
+}
+
+#modal_content .content_wrapper {
+	padding-top: 8em;
+	margin:3em auto 0;
+	text-align: center;
+}
+
+#modal_content h2 {
+	color:#fff;
+	margin: 0 0 0 0;
+	font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    letter-spacing: 1px;
+}
+
+#modal_content h4 {
+	color:#000;
+	margin: 0 0 2em 0;
+	font-size:1.5em;
+	text-shadow: 1px 1px 4px rgba(255,255,255,0.7);
+}
+
+#modal_content p {
+	color:#fff;
+	max-width: 60%;
+	margin: 1em auto;
+}
+
+#modal_content nav {font-size: 16px; display:block;}
+#modal_content nav ul {padding:0px!important;}
+#modal_content nav li {display: inline-block; text-align: right; width: auto;}
+
+#modal_content nav:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#modal_content nav small {
+	display: block;
+	text-align: center;
+	color: red;
+	margin: 1em 0 0;
+}
+
+#modal_content nav a.av_btn {
+	display:block;
+	text-align:center;
+    min-width: 70px;
+	border-radius: 0px;
+	margin:1em;
+	text-decoration: none;
+	padding:1em;
+	color: #fff;
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+#modal_content nav .av_go {
+	background-color: #7fbf4d;
+}
+
+#modal_content nav .av_no {
+	background-color: red;
+}
+
+#modal_content nav .av_btn:hover {
+	background-color: #1e0924;
+}
+
+#modal_content #modal_regret_wrapper nav a.av_btn {
+	margin-top:0;
+/*	width:130px; */
+	font-size: 0.8em;
+}
+
+@media (min-width: 688px) {
+	#modal_content {
+		top: 10em;
+		top: 30vh;
+		left: 30vw;
+		width: 100%;
+		max-width: 600px;
+		height:457px;
+		padding:0em;
+		border-radius: 0%;
+		background-position: center;
+		background-size: auto;
+		font-size: 16px;
+	}
+
+	#modal_content .content_wrapper {
+		padding-top: 0px;
+		margin: 3em 0em 3em 16em;
+		text-align: center;
+	}
+
+	#modal_content h2 {
+		margin: 0 0 0.5em 0;
+		font-size: 1.875em;
+	}
+
+	#modal_content p {
+		font-size: 15px;
+		line-height: 1.4em;
+		text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+	}
+
+	#modal_content nav {
+		width: 342px;
+	}
+
+	#modal_content nav a.av_btn {
+		padding: 1em;
+		margin: 1em;
+		font-size: 1em;
+	}
+}
